@@ -151,3 +151,9 @@ table {
   width: 100px;
   margin: auto;
 }
+
+.sectionContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
