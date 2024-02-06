@@ -226,3 +226,40 @@ table {
   width: 600px;
   align-items: center;
 }
+
+.devCard {
+  padding: 0 20px;
+}
+
+.devPic {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.devName {
+  font-family: "Quicksand-Bold";
+  color: white;
+}
+
+.devCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.sectionContainerc {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  background-color: #004C5C;
+  border-bottom: solid 0.1rem;
+}
+
+.devDesc {
+  color: white;
+  font-family: 'Quicksand';
+  font-size: 18px;
+}
