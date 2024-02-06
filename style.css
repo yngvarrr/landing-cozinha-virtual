@@ -263,3 +263,17 @@ table {
   font-family: 'Quicksand';
   font-size: 18px;
 }
+
+.teamHeader {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #004C5C;
+}
+
+.teamHeader h1 {
+  font-family: "Quicksand-Bold";
+  color: white;
+  font-size: 2.3rem;
+  text-align: center;
+}
