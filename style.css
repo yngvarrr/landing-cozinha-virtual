@@ -279,3 +279,16 @@ table {
   padding: 0;
   margin: 20px;
 }
+
+.fa-solid {
+  margin-right: 5px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ufs {
+  height: 200px;
+}
