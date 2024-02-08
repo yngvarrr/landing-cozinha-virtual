@@ -178,7 +178,7 @@ table {
   display: flex;
   justify-content: center;
   padding: 30px 0;
-  background-color: #004C5C;
+  background-color: #004c5c;
   border-bottom: solid 0.1rem;
 }
 
@@ -187,7 +187,7 @@ table {
   display: flex;
   justify-content: space-around;
   padding: 30px 500px;
-  background-color: #D17E46;
+  background-color: #d17e46;
 }
 
 .print {
@@ -255,13 +255,13 @@ table {
   display: flex;
   justify-content: center;
   padding: 30px 0;
-  background-color: #004C5C;
+  background-color: #004c5c;
   border-bottom: solid 0.1rem;
 }
 
 .devDesc {
   color: white;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 18px;
 }
 
@@ -269,7 +269,7 @@ table {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #004C5C;
+  background-color: #004c5c;
 }
 
 .teamHeader h1 {
@@ -295,5 +295,13 @@ table {
 }
 
 .teamContainer {
+  border-bottom: solid 0.1rem;
+}
+
+.contactContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #004c5c;
   border-bottom: solid 0.1rem;
 }
