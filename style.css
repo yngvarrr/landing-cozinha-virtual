@@ -293,3 +293,7 @@ table {
 .ufs {
   height: 200px;
 }
+
+.teamContainer {
+  border-bottom: solid 0.1rem;
+}
