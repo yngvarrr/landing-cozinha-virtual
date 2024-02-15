@@ -135,7 +135,7 @@ table {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
+  height: 200px;
   width: 100%;
   margin: 0;
 }
@@ -158,7 +158,7 @@ table {
 }
 
 .logo {
-  height: 80px;
+  height: 150px;
   border-radius: 1rem;
 }
 
@@ -176,8 +176,8 @@ table {
 .sectionContainer {
   align-items: center;
   display: flex;
-  justify-content: center;
-  padding: 30px 0;
+  justify-content: space-around;
+  padding: 20px 200px;
   background-color: #004c5c;
   border-bottom: solid 0.1rem;
 }
@@ -186,7 +186,7 @@ table {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  padding: 30px 500px;
+  padding: 30px 550px;
   background-color: #d17e46;
 }
 
@@ -207,21 +207,21 @@ table {
 .sectionHeader {
   color: white;
   font-family: "Quicksand-Bold";
-  font-size: 2.3rem;
+  font-size: 2.8rem;
   text-align: center;
 }
 
 .sectionText1 {
   font-family: "Quicksand-Bold";
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: white;
 }
 
 .sectionText {
-  font-family: "Quicksand";
+  font-family: "Quicksand-Bold";
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: white;
   width: 600px;
   align-items: center;
@@ -233,14 +233,17 @@ table {
 }
 
 .devPic {
-  height: 300px;
-  width: 300px;
+  height: 180px;
+  width: 180px;
   border-radius: 10px;
+  border-radius: 90px;
 }
 
 .devName {
   font-family: "Quicksand-Bold";
   color: white;
+  align-items: center;
+  font-size: 22px;
 }
 
 .devCards {
@@ -256,7 +259,6 @@ table {
   justify-content: center;
   padding: 30px 0;
   background-color: #004c5c;
-  border-bottom: solid 0.1rem;
 }
 
 .devDesc {
@@ -290,10 +292,6 @@ table {
   justify-content: space-around;
 }
 
-.ufs {
-  height: 200px;
-}
-
 .teamContainer {
   border-bottom: solid 0.1rem;
 }
@@ -304,4 +302,56 @@ table {
   justify-content: center;
   background-color: #004c5c;
   border-bottom: solid 0.1rem;
+}
+
+.headerContent h1 {
+  color: #004c5c;
+}
+
+.headerContent p {
+  color: #004c5c;
+}
+
+.cardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1200px;
+  margin: auto;
+}
+
+.card {
+  width: 260px;
+  height: 240px;
+  display: flex;
+  background-color: #004c5c;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+
+.cardIcon {
+  height: 60px;
+  width: 50px;
+  padding: 10px 0;
+  margin-left: 10px;
+}
+
+.cardText {
+  color: white;
+  font-family: "Quicksand-Bold";
+  margin: 10px 15px;
+  font-size: 18px;
+}
+
+.logosContainer {
+  margin: 30px 0;
+  align-items: center;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
 }
