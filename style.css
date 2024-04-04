@@ -205,7 +205,7 @@ table {
 }
 
 .sectionHeader {
-  color: white;
+  color: #004c5c;
   font-family: "Quicksand-Bold";
   font-size: 2.8rem;
   text-align: center;
@@ -214,14 +214,23 @@ table {
 .sectionText1 {
   font-family: "Quicksand-Bold";
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: white;
 }
 
 .sectionText {
   font-family: "Quicksand-Bold";
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  color: #004c5c;
+  width: 600px;
+  align-items: center;
+}
+
+.sectionText2 {
+  font-family: "Quicksand-Bold";
+  text-align: justify;
+  font-size: 1.6rem;
   color: white;
   width: 600px;
   align-items: center;
@@ -249,7 +258,7 @@ table {
 .devCards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1200px;
+  max-width: 1300px;
   align-items: center;
 }
 
@@ -354,4 +363,12 @@ table {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
+}
+
+.logoUfs {
+  height: 200px;
+}
+
+.logoDcomp {
+  width: 400px;
 }
