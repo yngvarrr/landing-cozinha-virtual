@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <script src="script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/8576d604ed.js"
       crossorigin="anonymous"
@@ -48,73 +53,48 @@
             A Cozinha Virtual traz muitas ferramentas para diversificar e inovar
             a sua experiência na cozinha e divulgar seu trabalho, enquanto
             proporciona interações entre diferentes pessoas desse universo
-            culinário! Com a sua Cozinha Virtual você pode fazer coisas
-            compartilhar suas receitas favoritas, descobrir receitas
-            completamente novas por meio de outros usuários, explorar culinárias
-            características e interagir com profissionais de nutrição para
-            aprender mais sobre suas comidas favoritas!
+            culinário! Ao mesmo tempo em que interage com outros entusiastas da cozinha, também pode interagir com profissionais da nutrição para aprender novos hábitos!
           </p>
         </div>
       </div>
     </section>
-    <section class="cardsContainer">
-      <div class="card">
-        <img class="cardIcon" src="./assets/pasta.png" alt="" />
-        <p class="cardText">
-          É possível criar pastas de receitas personalizadas, que são
-          disponibilizadas para venda a preços variados
-        </p>
-      </div>
-      <div class="card">
-        <img class="cardIcon" src="./assets/geladeira.png" alt="" />
-        <p class="cardText">
-          Você pode buscar receitas de acordo com um conjunto específico de
-          ingredientes e fazer listas de compras para adquirir o que for preciso
-        </p>
-      </div>
-      <div class="card">
-        <img class="cardIcon" src="./assets/saudavel.png" alt="" />
-        <p class="cardText">
-          As suas receitas podem ser avaliadas e comentadas por profissionais da
-          área da nutrição, que podem também postar dicas de culinária e/ou
-          saúde
-        </p>
-      </div>
-    </section>
-    <section class="sectionContainer">
-      <div class="sectionContenti">
-        <img
-          class="print"
-          src="./assets/print geladeira.jpeg"
-          alt="Geladeira"
-        />
-      </div>
-      <div class="sectionContent">
-        <h1 class="sectionHeader2">Geladeira Virtual</h1>
-        <p class="sectionText2">
-          O que destaca a Cozinha Virtual das demais soluções do mercado é a
-          ferramenta da Geladeira Virtual, que chega para dinamizar e
-          flexibilizar a sua experiência culinária. Com a Geladeira Virtual,
-          você pode encontrar qualquer receita dentro da plataforma que possa
-          fazer apenas com uma gama específica de ingredientes!
-        </p>
-        <p class="sectionText2">
-          Imagine a seguinte situação: você está querendo cozinhar algo gostoso,
-          mas não sabe o quê, e tem apenas alguns poucos ingredientes
-          disponíveis. Com a Geladeira Virtual, você pode utilizar esses
-          ingredientes para buscar uma ou mais receitas que sejam viáveis apenas
-          com eles!
-        </p>
-        <p class="sectionText2">
-          E caso tenha encontrado alguma receita muito atrativa através desta
-          busca, mas não possui todos os ingredientes, pode também criar uma
-          lista de compras dentro da própria Geladeira Virtual para que possa
-          saber exatamente o que comprar!
-        </p>
-      </div>
-      <div class="sectionContenti">
-        <img class="print" src="./assets/print lista.jpeg" alt="" />
-      </div>
+    <h1 class="headText">Funções</h1>
+    <section class="carrosselContainer">
+      <div class="carrossel">
+        <div class="slider-wrapper">
+          <div class="image-list">
+            <div class="slider-bg">
+              <img class="imgC" src="./assets/print feed.jpeg" />
+              <h3 class="cardHead">Feed</h3>
+              <p class="cardDesc">Onde você pode ver as receitas que todos os seus amigos postaram, assim como anúncios de produtos que possam lhe interessar!</p>
+            </div>
+            <div class="slider-bg">
+              <img class="imgC" src="/assets/print explorar.jpeg" alt="" />
+              <h3 class="cardHead">Explorar</h3>
+              <p class="cardDesc">Aqui você descobrirá receitas de pessoas que ainda não conhece, agrupadas em categorias relativas à sua origem característica!</p>
+            </div>
+            <div class="slider-bg">
+              <img class="imgC" src="./assets/print comentarios.jpeg" alt="" />
+              <h3 class="cardHead">Comentar</h3>
+              <p class="cardDesc">Os usuários da cozinha virtual podem interagir uns com os outros, comentando e avaliando as receitas dos amigos!</p>
+            </div>
+            <div class="slider-bg">
+              <img class="imgC" src="./assets/print nutrientes.jpeg" alt="" />
+              <h3 class="cardHead">Nutrientes</h3>
+              <p class="cardDesc">Para cada receita postada na Cozinha Virtual, são exibidas as quantidades dos principais nutrientes contidos nela, para os usuários que gostam de cuidar da sua alimentação!</p>
+            </div>
+            <div class="slider-bg">
+              <img class="imgC" src="/assets/print geladeira.jpeg" alt="" />
+              <h3 class="cardHead">Geladeira Virtual</h3>
+              <p class="cardDesc">Nosso principal diferencial, a Geladeira Virtual permite que você pesquise receitas baseado em ingredientes específicos que tenha à disposição!</p>
+            </div>
+            <div class="slider-bg">
+              <img class="imgC" src="./assets/print lista.jpeg" alt="" />
+              <h3 class="cardHead">Listas de compras</h3>
+              <p class="cardDesc">Atrelada à sua Geladeira Virtual há a função de lista de compras, onde poderá anotar o que precisa para alguma receita que tenha descoberto!</p>
+            </div>
+          </div>
+        </div>
     </section>
     <section class="sectionContainer">
       <div>
@@ -168,8 +148,8 @@
       </div>
       <div class="teamHeader">
         <h1>Consultoria Técnica</h1>
-        <div class="devCards">
-          <div class="devCard">
+        <div class="devCardsT">
+          <div class="devLine"><div class="devCard">
             <img class="devPic" src="./assets/debora.jpg" alt="Débora" />
             <h2 class="devName">Debora Maria</h2>
           </div>
@@ -181,25 +161,24 @@
             <img class="devPic" src="./assets/ricardo.png" alt="Ricardo" />
             <h2 class="devName">Ricardo Salgueiro</h2>
           </div>
-          <div class="devCard">
+        </div>
+          <div class="devLine"><div class="devCard">
             <img class="devPic" src="./assets/rogério.jpg" alt="Rogério" />
             <h2 class="devName">Rogério Patrício</h2>
           </div>
           <div>
             <img class="devPic" src="./assets/adicineia.png" alt="Adicineia" />
             <h2 class="devName">Adicineia Aparecida</h2>
-          </div>
+          </div></div>
         </div>
       </div>
     </section>
     <section class="logos">
       <div>
-        <p class="sectionText">
-          Contato: cozinhavirtual@dcomp.ufs.br
-        </p>
+        <p class="sectionText">Contato: cozinhavirtual@dcomp.ufs.br</p>
       </div>
       <div class="logosContainer">
-        <img src="./assets/logo_ufs-1.png" alt="UFS" class="logoUfs"/>
+        <img src="./assets/logo_ufs-1.png" alt="UFS" class="logoUfs" />
         <img src="./assets/logo_dcomp.png" alt="DCOMP" class="logoDcomp" />
       </div>
     </section>

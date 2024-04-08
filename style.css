@@ -205,7 +205,7 @@ table {
 }
 
 .sectionHeader {
-  color: #004c5c;
+  color: white;
   font-family: "Quicksand-Bold";
   font-size: 2.8rem;
   text-align: center;
@@ -221,7 +221,7 @@ table {
 .sectionText {
   font-family: "Quicksand-Bold";
   text-align: justify;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #004c5c;
   width: 600px;
   align-items: center;
@@ -237,7 +237,7 @@ table {
 .sectionText2 {
   font-family: "Quicksand-Bold";
   text-align: justify;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: white;
   width: 600px;
   align-items: center;
@@ -246,6 +246,7 @@ table {
 .devCard {
   padding: 0 20px;
   margin: 10px;
+  align-items: center
 }
 
 .devPic {
@@ -264,9 +265,22 @@ table {
 
 .devCards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
   align-items: center;
+}
+
+.devCards:nth-child(n+5) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.devCardsT {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space;
 }
 
 .sectionContainerc {
@@ -378,4 +392,129 @@ table {
 
 .logoDcomp {
   width: 400px;
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  gap: 25px;
+  margin-bottom: 30px;
+  grid-template-columns: repeat(10, 1fr);
+  overflow-x: auto;
+}
+
+.slider-wrapper .image-list .imgC {
+  width: 325px;
+  height: 750px;
+  object-fit: cover;
+}
+
+.carrosselContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f1f4fd;
+}
+
+.carrossel {
+  max-width: 1200px;
+  width: 95%;
+}
+
+.carrossel .slider-scrollbar {
+  height: -24px;
+  width: 100%;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  position: relative;
+  border-radius: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper .slide-button {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  color: #fff;
+  background: #000;
+  font-size: 2.2rem;
+  cursor: pointer;
+  border-radius: 50%; 
+  border: none;
+  outline: none; 
+  transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button:hover {
+  background: #444;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+  left: -20px;
+}
+
+.slider-wrapper .slide-button#next-slide {
+  right: -20px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: #000;
+  border-radius: inherit;
+  cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
+
+.cardHead {
+  color: #004c5c;
+  font-family: "Quicksand-Bold";
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.cardDesc {
+  color: #004c5c;
+  font-family: "Quicksand-Bold";
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.headText {
+  font-family: "Quicksand-Bold";
+  font-size: 2.8rem;
+  text-align: center;
+  color: #004c5c;
+}
+
+.devLine {
+  display: flex;
 }
